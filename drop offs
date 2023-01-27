@@ -1,31 +1,12 @@
-    local colors = {
-    SchemeColor = Color3.fromRGB(0,255,255),
-    Background = Color3.fromRGB(45, 3, 2),
-    Header = Color3.fromRGB(56, 3, 4),
-    TextColor = Color3.fromRGB(255,255,255),
-    ElementColor = Color3.fromRGB(20, 20, 20)
-}
-    if game.PlaceId == 2772836071 then
-    print'Drop Offs'
-
-    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro2/main/ui2"))()
-local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
-NotifyLib.prompt('Moon Gui - V To Open - Revamped by Meer', 'Loading..', 5)
-NotifyLib.prompt('Moon Gui - Revamped by Meer ', 'Best Gui Ong - Meer', 5)
-NotifyLib.prompt('Moon Gui - Revamped by Meer ', 'meer#0002', 5)
-NotifyLib.prompt('Game Detected: Drop Offs', 'meer#0002', 5)
-
-end
-
-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Meer Drop Offs Hub V3", "Ocean")
+local Window = Library.CreateLib("rahskiee#4138 Drop Offs GUI", "DarkTheme")
+
+--MAIN
+local Main = Window:NewTab("GUI")
+
 
 -- Main
-local Main = Window:NewTab("Updates")
-local MainSection = Main:NewSection("Made on 1/24/2023")
-local MainSection = Main:NewSection("More Scripts Coming!")
-local MainSection = Main:NewSection("Any Problems Dm rahskiee#4138")
+local MainSection = Main:NewSection("Drop offs")
 
 
 MainSection:NewButton("Aimbot Double Space / Auto Guard Tap R ", "Double Space to use ", function()
@@ -937,8 +918,7 @@ end)
 -- Credits
 local Credits = Window:NewTab("Credits")
 local CreditsSection = Credits:NewSection("Version 3 Drop Off Gui")
-local CreditsSection = Credits:NewSection("Made By Meer")
-local CreditsSection = Credits:NewSection("More Fun Scripts Will Be Added Soon")
+local CreditsSection = Credits:NewSection("Made By Rah")
 local CreditsSection = Credits:NewSection("No Steal Made By - magnet#0001")
 
 --HotKey
@@ -946,86 +926,8 @@ local HotKey = Window:NewTab("HotKey")
 local HotKeySection = HotKey:NewSection("HotKey")
 HotKeySection:NewKeybind("Press Any Key To Open Or Close", "Press Any key", Enum.KeyCode.V, function()
 	Library:ToggleUI()
-end)
-
---Meme
-local Meme = Window:NewTab("Meme")
-local MemeSection = Meme:NewSection("meme's")
-MemeSection:NewButton("Anime Sky", "UwU", function()
-wait()
-s = Instance.new("Sky")
-s.Parent = game.Lighting
-s.Name = "awesome skybox"
-while true do
-s.SkyboxBk = "http://www.roblox.com/asset/?id=21076888"
-s.SkyboxDn = "http://www.roblox.com/asset/?id=21076888"
-s.SkyboxFt = "http://www.roblox.com/asset/?id=21076888"
-s.SkyboxLf = "http://www.roblox.com/asset/?id=21076888"
-s.SkyboxRt = "http://www.roblox.com/asset/?id=21076888"
-s.SkyboxUp = "http://www.roblox.com/asset/?id=21076888"
-wait(0.1)
-s.SkyboxBk = "http://www.roblox.com/asset/?id=21076945"
-s.SkyboxDn = "http://www.roblox.com/asset/?id=21076945"
-s.SkyboxFt = "http://www.roblox.com/asset/?id=21076945"
-s.SkyboxLf = "http://www.roblox.com/asset/?id=21076945"
-s.SkyboxRt = "http://www.roblox.com/asset/?id=21076945"
-s.SkyboxUp = "http://www.roblox.com/asset/?id=21076945"
-wait(0.1)
-s.SkyboxBk = "http://www.roblox.com/asset/?id=21077007"
-s.SkyboxDn = "http://www.roblox.com/asset/?id=21077007"
-s.SkyboxFt = "http://www.roblox.com/asset/?id=21077007"
-s.SkyboxLf = "http://www.roblox.com/asset/?id=21077007"
-s.SkyboxRt = "http://www.roblox.com/asset/?id=21077007"
-s.SkyboxUp = "http://www.roblox.com/asset/?id=21077007"
-wait(0.1)
-s.SkyboxBk = "http://www.roblox.com/asset/?id=21077125"
-s.SkyboxDn = "http://www.roblox.com/asset/?id=21077125"
-s.SkyboxFt = "http://www.roblox.com/asset/?id=21077125"
-s.SkyboxLf = "http://www.roblox.com/asset/?id=21077125"
-s.SkyboxRt = "http://www.roblox.com/asset/?id=21077125"
-s.SkyboxUp = "http://www.roblox.com/asset/?id=21077125"
-wait(0.1)
-s.SkyboxBk = "http://www.roblox.com/asset/?id=21077227"
-s.SkyboxDn = "http://www.roblox.com/asset/?id=21077227"
-s.SkyboxFt = "http://www.roblox.com/asset/?id=21077227"
-s.SkyboxLf = "http://www.roblox.com/asset/?id=21077227"
-s.SkyboxRt = "http://www.roblox.com/asset/?id=21077227"
-s.SkyboxUp = "http://www.roblox.com/asset/?id=21077227"
-wait(0.1)
-s.SkyboxBk = "http://www.roblox.com/asset/?id=21077345"
-s.SkyboxDn = "http://www.roblox.com/asset/?id=21077345"
-s.SkyboxFt = "http://www.roblox.com/asset/?id=21077345"
-s.SkyboxLf = "http://www.roblox.com/asset/?id=21077345"
-s.SkyboxRt = "http://www.roblox.com/asset/?id=21077345"
-s.SkyboxUp = "http://www.roblox.com/asset/?id=21077345"
-wait(0.1)
-s.SkyboxBk = "http://www.roblox.com/asset/?id=21077227"
-s.SkyboxDn = "http://www.roblox.com/asset/?id=21077227"
-s.SkyboxFt = "http://www.roblox.com/asset/?id=21077227"
-s.SkyboxLf = "http://www.roblox.com/asset/?id=21077227"
-s.SkyboxRt = "http://www.roblox.com/asset/?id=21077227"
-s.SkyboxUp = "http://www.roblox.com/asset/?id=21077227"
-wait(0.1)
-s.SkyboxBk = "http://www.roblox.com/asset/?id=21077125"
-s.SkyboxDn = "http://www.roblox.com/asset/?id=21077125"
-s.SkyboxFt = "http://www.roblox.com/asset/?id=21077125"
-s.SkyboxLf = "http://www.roblox.com/asset/?id=21077125"
-s.SkyboxRt = "http://www.roblox.com/asset/?id=21077125"
-s.SkyboxUp = "http://www.roblox.com/asset/?id=21077125"
-wait(0.1)
-s.SkyboxBk = "http://www.roblox.com/asset/?id=21077007"
-s.SkyboxDn = "http://www.roblox.com/asset/?id=21077007"
-s.SkyboxFt = "http://www.roblox.com/asset/?id=21077007"
-s.SkyboxLf = "http://www.roblox.com/asset/?id=21077007"
-s.SkyboxRt = "http://www.roblox.com/asset/?id=21077007"
-s.SkyboxUp = "http://www.roblox.com/asset/?id=21077007"
-wait(0.1)
-s.SkyboxBk = "http://www.roblox.com/asset/?id=21076945"
-s.SkyboxDn = "http://www.roblox.com/asset/?id=21076945"
-s.SkyboxFt = "http://www.roblox.com/asset/?id=21076945"
-s.SkyboxLf = "http://www.roblox.com/asset/?id=21076945"
-s.SkyboxRt = "http://www.roblox.com/asset/?id=21076945"
-s.SkyboxUp = "http://www.roblox.com/asset/?id=21076945"
-end
-
+	local Main = Window:NewTab("Updates")
+local MainSection = Main:NewSection("Made on 1/24/2023")
+local MainSection = Main:NewSection("More Scripts Coming!")
+local MainSection = Main:NewSection("Any Problems Dm rahskiee#4138")
 end)
